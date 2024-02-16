@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+  <id>Sharpcode.AssetVersioning.Azure</id>
+  <version>3.400.0</version>
+  <version-tag></version-tag>
+
+  <platformVersion>3.414.13</platformVersion>
+  <dependencies>
+    <!--<dependency id="VirtoCommerce.Core" version="3.400.2" />-->
+  </dependencies>
+
+  <title>Azure Asset Versioning module</title>
+  <description>Azure Asset Versioning module</description>
+
+  <authors>
+    <author>Sharpcode</author>
+  </authors>
+  <owners>
+    <owner>Sharpcode</owner>
+  </owners>
+
+  <projectUrl>https://github.com/reveation-labs/sc-module-azureblob-assets-versioning</projectUrl>
+  <iconUrl>Modules/$(Sharpcode.AssetVersioning.Azure.Web)/Content/logo.png</iconUrl>
+  <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+  <assemblyFile>Sharpcode.AssetVersioning.Azure.Web.dll</assemblyFile>
+  <moduleType>Sharpcode.AssetVersioning.Azure.Web.Module, Sharpcode.AssetVersioning.Azure.Web</moduleType>
+
+  <releaseNotes>First version.</releaseNotes>
+  <copyright>Copyright © 2023 Sharpcode. All rights reserved</copyright>
+  <tags>extension module</tags>
+  <useFullTypeNameInSwagger>false</useFullTypeNameInSwagger>
+</module>
