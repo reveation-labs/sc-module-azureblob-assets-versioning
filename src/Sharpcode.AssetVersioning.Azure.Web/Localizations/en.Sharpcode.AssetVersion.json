@@ -1,0 +1,26 @@
+{
+  "assets": {
+    "main-menu-title": "Asset Versions",
+    "blades": {
+      "asset-versions": {
+        "title": "Previous Versions",
+        "subtitle": "Version details of selected asset",
+        "labels": {
+          "warning": "We found issues with your asset versions.",
+          "name": "Name", 
+          "modified": "Last Modified",
+          "versionId": "Version Id",
+          "currentVersion": "Make current version"
+        }
+      }
+    }
+  },
+  "permissions": {
+    "assets:access": "Open assets menu",
+    "assets:read": "View assets related data",
+    "assets:feed:read": "View assets logs",
+    "assets:execute": "Manually send assets",
+    "assets:update": "Create or update assets",
+    "assets:delete": "Delete assets"
+  }
+}

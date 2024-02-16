@@ -1,0 +1,63 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CFC55FA3-F9C3-44C4-B45B-1829E6F71B38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{13199E4F-B797-46D2-90B4-B760050D75A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C6B0655D-7DA0-4244-B4B4-8774EC531FCC}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		module.ignore = module.ignore
+		README.md = README.md
+		Sharpcode.TestModule.sln.DotSettings = Sharpcode.TestModule.sln.DotSettings
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharpcode.AssetVersioning.Azure.Tests", "tests\Sharpcode.AssetVersioning.Azure.Tests\Sharpcode.AssetVersioning.Azure.Tests.csproj", "{AF95D1DD-83E8-4EFB-9DB6-4D60717B68BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharpcode.AssetVersioning.Azure.Core", "src\Sharpcode.AssetVersioning.Azure.Core\Sharpcode.AssetVersioning.Azure.Core.csproj", "{0E34F691-6F81-40D2-B629-8AAB73280516}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharpcode.AssetVersioning.Azure.Data", "src\Sharpcode.AssetVersioning.Azure.Data\Sharpcode.AssetVersioning.Azure.Data.csproj", "{5490170C-7218-44F2-B8FC-8BF0E6F1B725}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharpcode.AssetVersioning.Azure.Web", "src\Sharpcode.AssetVersioning.Azure.Web\Sharpcode.AssetVersioning.Azure.Web.csproj", "{41D4E7B5-D1B1-4BC9-868B-7C40264311E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF95D1DD-83E8-4EFB-9DB6-4D60717B68BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF95D1DD-83E8-4EFB-9DB6-4D60717B68BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF95D1DD-83E8-4EFB-9DB6-4D60717B68BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF95D1DD-83E8-4EFB-9DB6-4D60717B68BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E34F691-6F81-40D2-B629-8AAB73280516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E34F691-6F81-40D2-B629-8AAB73280516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E34F691-6F81-40D2-B629-8AAB73280516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E34F691-6F81-40D2-B629-8AAB73280516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5490170C-7218-44F2-B8FC-8BF0E6F1B725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5490170C-7218-44F2-B8FC-8BF0E6F1B725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5490170C-7218-44F2-B8FC-8BF0E6F1B725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5490170C-7218-44F2-B8FC-8BF0E6F1B725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41D4E7B5-D1B1-4BC9-868B-7C40264311E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D4E7B5-D1B1-4BC9-868B-7C40264311E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D4E7B5-D1B1-4BC9-868B-7C40264311E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D4E7B5-D1B1-4BC9-868B-7C40264311E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF95D1DD-83E8-4EFB-9DB6-4D60717B68BD} = {13199E4F-B797-46D2-90B4-B760050D75A4}
+		{0E34F691-6F81-40D2-B629-8AAB73280516} = {CFC55FA3-F9C3-44C4-B45B-1829E6F71B38}
+		{5490170C-7218-44F2-B8FC-8BF0E6F1B725} = {CFC55FA3-F9C3-44C4-B45B-1829E6F71B38}
+		{41D4E7B5-D1B1-4BC9-868B-7C40264311E0} = {CFC55FA3-F9C3-44C4-B45B-1829E6F71B38}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FE65273-26F9-4809-A0C5-A16DDD67A35B}
+	EndGlobalSection
+EndGlobal
